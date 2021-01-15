@@ -4,12 +4,55 @@
 // Dare la possibilità all’utente attraverso 3 prompt di aggiungere un nuovo oggetto studente inserendo nell’ordine: nome, cognome e età.
 
 
-var student = {
-  "nome" : "walter",
-  "cognome" : "white",
-  "eta" : "50"
-};
+// var student = {
+//   "nome" : "walter",
+//   "cognome" : "white",
+//   "eta" : "50"
+// };
+//
+// for (var k in student){
+//   console.log(student[k]);
+// }
 
-for (var k in student){
-  console.log(student[k]);
+var students = [
+  {
+    "nome" : "walter",
+    "cognome" : "white",
+    "eta" : "50"
+  },
+  {
+    "nome" : "elon",
+    "cognome" : "musk",
+    "eta" : "30"
+  },
+  {
+    "nome" : "peter",
+    "cognome" : "thiel",
+    "eta" : "40"
+  },
+];
+
+for (var i = 0; i < students.length; i++){
+  console.log(students[i].nome);
+  console.log(students[i].cognome);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// edwjfnwedij

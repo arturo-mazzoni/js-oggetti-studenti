@@ -32,14 +32,24 @@ var students = [
   },
 ];
 
-for (var i = 0; i < students.length; i++){
-  console.log(students[i].nome);
-  console.log(students[i].cognome);
-}
+// for (var i = 0; i < students.length; i++){
+//   console.log(students[i].nome);
+//   console.log(students[i].cognome);
+// }
 
+var nomeIserito = prompt("inserisci un nome");
+var cognomeInserito = prompt("inserisci un cognome");
+var etaInserita = parseInt(prompt("inserisci un eta"));
 
+var studenteInserito = {
+  nome : nomeIserito,
+  cognome : cognomeInserito,
+  eta : etaInserita
+};
 
+students.push(studenteInserito);
 
+console.log(students);
 
 
 

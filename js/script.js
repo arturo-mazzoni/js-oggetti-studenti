@@ -5,7 +5,11 @@
 
 
 var student = {
-  "nome" : "jack",
+  "nome" : "walter",
   "cognome" : "white",
-  "eta" : "17"
+  "eta" : "50"
 };
+
+for (var k in student){
+  console.log(student[k]);
+}
